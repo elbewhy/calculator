@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+}
+
+.calculator{
+    padding: 15px;
+    border: 2px, solid green;
+    background-color: white;
+    border-radius: 15px;
+
+
+}
+.display{
+    border: 2px, solid green;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: right;
+    border-radius: 15px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
