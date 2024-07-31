@@ -11,7 +11,7 @@ function appendToDisplay(value){
     }
 }
 
-function calcResult(){
+function calculateResult(){
     const display = document.getElementById('display');
     try{
         const result = eval(display.innerText);
